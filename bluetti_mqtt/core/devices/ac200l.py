@@ -22,7 +22,7 @@ class AutoSleepMode(Enum):
     NEVER = 5
 
 
-class AC200M(BluettiDevice):
+class AC200L(BluettiDevice):
     def __init__(self, address: str, sn: str):
         self.struct = DeviceStruct()
 
