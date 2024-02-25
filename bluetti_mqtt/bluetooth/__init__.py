@@ -28,7 +28,7 @@ def build_device(address: str, name: str):
     if match[1] == 'AC200M':
         return AC200M(address, match[2])
     if match[1] == 'AC200L':
-        return AC200M(address, match[2])
+        return AC200L(address, match[2])
     if match[1] == 'AC300':
         return AC300(address, match[2])
     if match[1] == 'AC500':
