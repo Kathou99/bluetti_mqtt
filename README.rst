@@ -1,5 +1,5 @@
 ============
-bluetti_mqtt
+bluetti_mqtt-v2
 ============
 
 This tool provides an MQTT interface to Bluetti power stations. State will be
@@ -11,7 +11,7 @@ Installation
 
 .. code-block:: bash
 
-    $ pip install bluetti_mqtt
+    $ pip install bluetti_mqtt-v2
 
 Usage
 -----

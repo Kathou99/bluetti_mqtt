@@ -2,7 +2,7 @@ import asyncio
 from dataclasses import dataclass
 import logging
 from typing import Callable, List, Union
-from bluetti_mqtt.core import BluettiDevice, DeviceCommand
+from bluetti_mqtt-v2.core import BluettiDevice, DeviceCommand
 
 
 @dataclass(frozen=True)

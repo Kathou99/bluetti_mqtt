@@ -7,8 +7,8 @@ import re
 from typing import List, Optional
 from asyncio_mqtt import Client, MqttError
 from paho.mqtt.client import MQTTMessage
-from bluetti_mqtt.bus import CommandMessage, EventBus, ParserMessage
-from bluetti_mqtt.core import BluettiDevice, DeviceCommand
+from bluetti_mqtt-v2.bus import CommandMessage, EventBus, ParserMessage
+from bluetti_mqtt-v2.core import BluettiDevice, DeviceCommand
 
 
 @unique
